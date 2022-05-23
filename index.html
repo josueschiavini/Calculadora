@@ -6,45 +6,46 @@
     <meta name=“viewport” content=“ initial-scale=1, maximum-scale=1”><!--Para ficar responsivo em qualquer tela-->
     <meta name="author" content="Josué Schiavini">
     <title>Calculadora JavaScript</title>
-    <link rel=“stylesheet” type="text/css" href=“/Calculadora-JavaScript/style.css” /><!--Arquivo externo de estilização-->
-    <script src=“script.js”></script><!--Arquivo externo de javascript-->
+    <link rel="stylesheet" type="text/css" href="style.css" /><!--Arquivo externo de estilização-->
+    <script src="script.js"></script><!--Arquivo externo de javascript-->
 </head>
 
 <body>
-    <div class="fundo"><!--Fundo da página-->
-        <div class="calculadora"></div><!--Corpo da Calculadora-->
+    <div class="background"><!--Fundo da página-->
+        <div class="calculadora"><!--Corpo da Calculadora-->
             <h1>Calculadora</h1>
             <p id="resultado"></p>
             <table><!--Tabela para criar os botões-->
                 <tr>
-                    <td><button>C</button></td>
-                    <td><button>&lt;</button></td>
-                    <td><button>/</button></td>
-                    <td><button>X</button></td>
+                    <td><button class="botao">C</button></td>
+                    <td><button class="botao">&lt;</button></td>
+                    <td><button class="botao">/</button></td>
+                    <td><button class="botao">X</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>-</button></td>
+                    <td><button class="botao">7</button></td>
+                    <td><button class="botao">8</button></td>
+                    <td><button class="botao">9</button></td>
+                    <td><button class="botao">-</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>+</button></td>
+                    <td><button class="botao">4</button></td>
+                    <td><button class="botao">5</button></td>
+                    <td><button class="botao">6</button></td>
+                    <td><button class="botao">+</button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td rowspan="2"><button>=</button></td><!--rowspan para fazer o botao "=" utilizar 2 linhas-->
+                    <td><button class="botao">1</button></td>
+                    <td><button class="botao">2</button></td>
+                    <td><button class="botao">3</button></td>
+                    <td rowspan="2"><button class="botao" style="height: 106px">=</button></td><!--rowspan para fazer o botao "=" utilizar 2 linhas-->
                 </tr>
                 <tr>
-                    <td colspan="2"><button>0</button></td><!--rowspan para fazer o botao "0" utilizar 2 colunas-->
-                    <td><button>.</button></td>
+                    <td colspan="2"><button class="botao" style="width: 106px">0</button></td><!--rowspan para fazer o botao "0" utilizar 2 colunas-->
+                    <td><button class="botao">.</button></td>
                 </tr>
             </table>
+        </div>
     </div>
 
 

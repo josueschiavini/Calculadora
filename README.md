@@ -12,6 +12,6 @@
 ## </br></br></br>Sistema Operacional
 #### - Windows 10 x64 versão 21H1
 
-#### Conteúdo visto em vídeo de Gustavo Neitzke.
+#### </br></br></br>Conteúdo visto em vídeo de Gustavo Neitzke.
 #### Link: https://youtu.be/42TShjXR0m0
 #### Criado arquivos CSS e JS externos, como melhor prática.

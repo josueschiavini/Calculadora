@@ -1,7 +1,7 @@
 ## Calculadora básica desenvolvida em HTML, CSS e JavaScript.
 
 </br><div align="center">
-    <img src="https://github.com/josueschiavini/Calculadora-JavaScript/blob/master/calc.JPG"/>
+    <img src="https://github.com/josueschiavini/Calculadora-JavaScript/blob/master/calc.gif"/>
 </div>
 
 ## </br></br></br>Estrutura

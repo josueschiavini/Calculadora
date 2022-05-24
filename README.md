@@ -9,8 +9,7 @@
 #### * Cabeçalho(head) com metatags
 ##### Adendo:
 ###### <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-###### "viewport" Informa ao navegador que a largura da tela deve ser considerada a "largura total" da página,
-###### não importando a largura do dispositivo, tanto desktop como celular ou tablet.
+###### "viewport" Informa ao navegador que a largura da tela deve ser considerada a "largura total" da página, não importando a largura do dispositivo, tanto desktop como celular ou tablet.
 ###### "initial-scale=1" Define o nível de zoom inicial da página quando ela é carregada.
 ###### "maximum-scale=1" Para evitar que usuários deem zoom na página.
 
@@ -21,12 +20,12 @@
 ##### classes para atribuir formatação a vários elementos de uma vez.
 ##### identificador para atribuir formatação a elementos únicos.
 
-### - CSS externo para estilização.
+### </br></br></br>CSS externo para estilização.
 ##### Adendo:
 ###### :hover
 ###### Para adicionar característica ao elemento botão quando posiciona o mouse sobre ele.
 
-### - JavaScript externo para funções
+### </br></br></br>JavaScript externo para funções
 ##### Adendo:
 ###### onclick="clean()" - Serve para limpar todo o parágrafo "resultado" quando clicado no "C".
 ###### onclick="back()" - Serve para apagar o caracter anterior.
